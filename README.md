@@ -8,7 +8,7 @@ This is my firs fetch API task, allow you to get random pictures for animals.
 - Git and GitHub 
 - js DOM Manipulations
 - Fetch API
-## You can [check it]( )
+## You can [check it](https://gsg-cf05.github.io/API-task-hana/ )
 
 ## Team members:-
 - [Hana'a Albuhaisi](https://github.com/Hanahosam)
