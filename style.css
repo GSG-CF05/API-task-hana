@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Readex+Pro:wght@300;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+body{
+    width: 100%;
+    background-color: rgb(187, 198, 207);
+}
+header{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(153, 166, 177);
+    padding: 30px 40px;   
+    padding : 7px;
+    margin: 10px; 
+} 
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 20%; */
+}
+
+
+.elementDiv{
+    display:flex;
+    /* flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    width: 30%;
+    height: 200px;
+    line-height: 30px; */
+    color: white;
+    background-color: rgb(153, 166, 177);
+    border-radius: 20px;
+    font-size: 14px;
+    padding : 7px;
+    margin: 10px;
+
+}
+.h1{
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items:center; */
+    /* position: relative; */
+    /* background-color: rgb(126, 145, 138); */
+    /* box-sizing: content-box;
+    box-shadow:3px 3px rgb(193, 241, 128);; */
+    font-size: 20px;
+    align-items: center;
+  
+
+}
+.pic{
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+ }
+
+
+/* ******for laptop & desktop****8 */
+@media screen and (min-width: 1024px) {
+  
+ .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width: 90%;
+    padding : 0px;
+    margin: 0px;
+    /* align-items: center; */
+} 
+.elementDiv{
+    width: 29%;  
+}}
